@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import img from '../../../assets/images/Home/mini-card-image-1.png';
 
-
 export const Container = styled.div`
     border-left: 2px solid #CAC4D0;
     margin-bottom: 75px;
@@ -28,10 +27,10 @@ export const HeaderCard = styled.div`
     margin: 15px;
     background-color: #F1F0EF;
     border-radius: 29px;
-
 `;
 
 export const FooterCard = styled.div`
     display: flex;
     padding: 19px;
+    border-top: 2px solid #CAC4D0;
 `;
