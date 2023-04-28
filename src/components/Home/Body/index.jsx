@@ -1,11 +1,18 @@
+import MiniCard from "../MiniCard";
 import NewsCard from "../NewsCard";
-import { Container } from "./styles";
+import { Container, NewsCardRight, NoticesCard } from "./styles";
 
 
 const Body = () => {
-    return(
+    return (
         <Container>
-            <NewsCard/>
+            <NoticesCard>
+                <NewsCard />
+                <NewsCardRight>
+                    <MiniCard />
+                    <MiniCard />
+                </NewsCardRight>
+            </NoticesCard>
         </Container>
     );
 }

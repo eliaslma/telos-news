@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     width: 676px;
+    height: 770px;
     background-color: #F7F2FA;
     flex-direction: column;
     border-radius: 21.5px;
-    padding-bottom: 28px;
 `;
 
 export const TitleCard = styled.text`
