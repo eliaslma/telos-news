@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Campton';
+  src: url('../public/fonts/Campton-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

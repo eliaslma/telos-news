@@ -16,9 +16,9 @@ export const ImageWrapper = styled.div`
 `;
 
 export const TitleMiniCard = styled.text`
-    font-family: "Roboto", sans-serif;
+    font-family: "Campton", sans-serif;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: bold;
     align-self: flex-end;
 `;
 

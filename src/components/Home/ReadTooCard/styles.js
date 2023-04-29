@@ -18,8 +18,8 @@ export const Header = styled.div`
 `;
 
 export const HeaderTitle = styled.text`
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-family: "Campton", sans-serif;
+    font-weight: bold;
     color: #3D3D3D;
     font-size: 20px;
     margin-left: 20px;
