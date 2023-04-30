@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import img from '../../../assets/images/News/teaser-telos.png';
 
-
 export const Container = styled.div`
     display: flex;
     padding: 0px 110px;
@@ -26,9 +25,9 @@ export const Image = styled.img`
 
 export const BrandWrapper = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 35px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #1C6296;
 `;
 
 export const HeaderTitle = styled.text`
@@ -114,3 +113,28 @@ export const ReadTooTitle = styled.text`
     color: #4D4D4D;
 `;
 
+export const MenuButton = styled.div`
+    display: flex;
+    align-items: center;
+`;
+
+export const MenuButtonTitle = styled.text`
+    font-size: 15px;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: medium;
+    color: #FFFFFF;
+    margin-left: 10px;
+`;
+
+export const LoginButton = styled.div`
+    display: flex;
+    align-items: center;
+`;
+
+export const LoginButtonTitle = styled.text`
+    font-size: 15px;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: medium;
+    color: #FFFFFF;
+    margin-left: 10px;
+`;

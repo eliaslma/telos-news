@@ -1,3 +1,5 @@
+import LoginIcon from '@mui/icons-material/Login';
+import MenuIcon from '@mui/icons-material/Menu';
 import React from 'react';
 import burnoutNewImage from '../../../assets/images/News/burnout-new-image.png';
 import telosBrandNews from '../../../assets/images/News/telos-brand-news.png';
@@ -17,7 +19,11 @@ import {
     HeaderTitle,
     Image,
     ImageNew,
+    LoginButton,
+    LoginButtonTitle,
     MainContent,
+    MenuButton,
+    MenuButtonTitle,
     NewsContent,
     NewsText,
     ReadTooTitle,
@@ -33,7 +39,15 @@ const HeaderBackground = () => {
         <Container>
             <BackgroundWrapper>
                 <BrandWrapper>
+                    <MenuButton>
+                        <MenuIcon sx={{ color: '#FFFFFF' }} />
+                        <MenuButtonTitle>Menu</MenuButtonTitle>
+                    </MenuButton>
                     <Image src={telosBrandNews} />
+                    <LoginButton>
+                        <LoginIcon sx={{ color: '#FFFFFF' }} />
+                        <LoginButtonTitle>Entrar</LoginButtonTitle>
+                    </LoginButton>
                 </BrandWrapper>
                 <HeaderTitle>
                     Burnout: você sabe lidar com esgotamento profissional?
@@ -50,37 +64,37 @@ const HeaderBackground = () => {
                     <TitleText>Burnout: o que é?</TitleText>
                     <NewsText>O burnout ou síndrome do esgotamento profissional é um distúrbio psíquico advindo de condições de trabalho desgastantes. Fazer muitas horas extras, ter uma pressão excessiva e ininterrupta sobre seu cargo são alguns dos motivos que podem te gerar essa sensação de esgotamento e desânimo para o trabalho.</NewsText>
                     <NewsText style={{ marginTop: '20px' }}>Como características principais, possui o estado de tensão emocional e estresse crônico devido a condições de trabalhos físicos, emocionais e psicológicos desgastantes. Profissões na área da educação, saúde, segurança entre outras estão entre as mais afetadas devido ao alto envolvimento interpessoal. Na quarentena, devido ao covid-19, muitos profissionais têm reclamado do aumento da jornada de trabalho e aumento de atribuições, gerando um grande estresse e desconforto.</NewsText>
-                    <ImageNew src={burnoutNewImage}/>
+                    <ImageNew src={burnoutNewImage} />
                     <TitleText>Sintomas do Burnout</TitleText>
                     <NewsText>O sintoma mais característico da síndrome é a sensação de esgotamento físico e emocional. Além disso, sintomas como dores de cabeça, cansaço, palpitação, pressão alta, insônia também podem estar associadas ao distúrbio.</NewsText>
                 </MainContent>
                 <SideContent>
                     <ReadTooTitle>Leia também</ReadTooTitle>
-                    <ReadTooMiniCard 
+                    <ReadTooMiniCard
                         new={{
-                            image: readTooMiniCardOne, 
+                            image: readTooMiniCardOne,
                             title: "Mercado de trabalho",
                             subtitle: "Gamificação: saiba como ela pode…"
-                    }}/>
-                    <ReadTooMiniCard 
+                        }} />
+                    <ReadTooMiniCard
                         new={{
-                            image: readTooMiniCardTwo, 
+                            image: readTooMiniCardTwo,
                             title: "Negócios",
                             subtitle: "Por que trabalhar com propósito ?"
-                    }}/>
-                    <ReadTooMiniCard 
+                        }} />
+                    <ReadTooMiniCard
                         new={{
-                            image: readTooMiniCardThree, 
+                            image: readTooMiniCardThree,
                             title: "Educação",
                             subtitle: "Por que contratar treinamentos…"
-                    }}/>
-                    <ReadTooMiniCard 
+                        }} />
+                    <ReadTooMiniCard
                         new={{
-                            image: readTooMiniCardFour, 
+                            image: readTooMiniCardFour,
                             title: "Educação",
                             subtitle: "O que levar em consideração…"
-                    }}/>
-                    
+                        }} />
+
                 </SideContent>
             </NewsContent>
         </Container>
