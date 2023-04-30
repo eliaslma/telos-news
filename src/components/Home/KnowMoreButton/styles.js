@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Container = styled.div` 
+export const Container = styled(Link)` 
     padding: 18px 43px;
     border-radius: 180px;
     border: 2px solid #EDEDED;
     margin-right: 14px;
+    text-decoration: none;
 `;
 
 export const ButtonTitle = styled.text`

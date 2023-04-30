@@ -14,5 +14,7 @@ export const Button = styled.button`
 export const Title = styled.text`
     font-size: 20px;
     margin-left: 19px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: medium;
+    color: #49474A;
 `;

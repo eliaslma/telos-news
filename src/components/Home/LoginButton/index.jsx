@@ -4,7 +4,7 @@ import { Button, Title } from './styles';
 const LoginButton = () => {
     return(
         <Button>
-            <LoginIcon/>
+            <LoginIcon sx={{color: '#49474A'}}/>
             <Title>Entrar</Title>
         </Button>
     );

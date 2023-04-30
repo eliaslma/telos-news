@@ -7,7 +7,7 @@ import {
 
 const ReadNowMiniButton = () => {
     return(
-        <Container>
+        <Container to="/news">
             <ButtonTitle>Ler Agora</ButtonTitle>
         </Container>
     );

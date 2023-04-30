@@ -1,5 +1,5 @@
 
-import HeaderBackground from "../../components/News/HeaderBackground";
+import NewsTemplate from "../../components/News/NewsTemplate";
 import {
     Container
 } from "./styles";
@@ -7,7 +7,7 @@ import {
 const News = () => {
     return(
         <Container>
-            <HeaderBackground/>
+            <NewsTemplate/>
         </Container>
     );
 }

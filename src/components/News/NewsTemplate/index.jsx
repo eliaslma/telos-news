@@ -34,7 +34,7 @@ import {
     UserName
 } from './styles';
 
-const HeaderBackground = () => {
+const NewsTemplate = () => {
     return (
         <Container>
             <BackgroundWrapper>
@@ -101,4 +101,4 @@ const HeaderBackground = () => {
     );
 }
 
-export default HeaderBackground;
+export default NewsTemplate;

@@ -7,7 +7,7 @@ import {
 
 const ReadTooButton = () => {
     return(
-        <Container>
+        <Container to="/news">
             <ButtonTitle>ler agora</ButtonTitle>
         </Container>
     );

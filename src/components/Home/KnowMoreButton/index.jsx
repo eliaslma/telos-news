@@ -7,7 +7,7 @@ import {
 
 const KnowMoreButton = () => {
     return(
-        <Container>
+        <Container to="/news">
             <ButtonTitle>Saiba mais</ButtonTitle>
         </Container>
     );
