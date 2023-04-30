@@ -71,7 +71,7 @@ export const ReadingTime = styled.text`
 
 export const NewsContent = styled.div`
     display: flex;
-    margin-top: 130px;
+    margin-top: 80px;
 `;
 
 export const MainContent = styled.div`
@@ -83,12 +83,14 @@ export const MainContent = styled.div`
 
 export const SideContent = styled.div`
     display: flex;
+    flex-direction: column;
+    margin-left: 120px;
 `;
 
 export const NewsText = styled.text`
     font-size: 15px;
     font-family: 'Paralucent', sans-serif;
-    font-weight: bold;
+    font-weight: medium;
     color: #A6A6A6;
 `;
 
@@ -100,3 +102,15 @@ export const TitleText = styled.text`
     margin-top: 45px;
     margin-bottom: 20px;
 `;
+
+export const ImageNew = styled.img`
+    margin-top: 45px;
+`;
+
+export const ReadTooTitle = styled.text`
+    font-size: 20px;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: bold;
+    color: #4D4D4D;
+`;
+
