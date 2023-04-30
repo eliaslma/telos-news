@@ -18,3 +18,10 @@ code {
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Paralucent';
+  src: url('../public/fonts/Paralucent-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}

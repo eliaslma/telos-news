@@ -55,16 +55,48 @@ export const UserCircle = styled.img`
 
 export const UserName = styled.text`
     font-size: 15px;
-    font-family: 'Campton', sans-serif;
-    font-weight: bold;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: medium;
     margin-left: 15px;
     color: #0E1A22B2;
 `;
 
 export const ReadingTime = styled.text`
     font-size: 15px;
-    font-family: 'Campton', sans-serif;
+    font-family: 'Paralucent', sans-serif;
     font-weight: bold;
     margin-left: 155px;
     color: #0E1A22B2;
+`;
+
+export const NewsContent = styled.div`
+    display: flex;
+    margin-top: 130px;
+`;
+
+export const MainContent = styled.div`
+    display: flex;
+    width: 653px;
+    margin-left: 100px;
+    flex-direction: column;
+`;
+
+export const SideContent = styled.div`
+    display: flex;
+`;
+
+export const NewsText = styled.text`
+    font-size: 15px;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: bold;
+    color: #A6A6A6;
+`;
+
+export const TitleText = styled.text`
+    font-size: 25px;
+    font-family: 'Paralucent', sans-serif;
+    font-weight: bold;
+    color: #4D4D4D;
+    margin-top: 45px;
+    margin-bottom: 20px;
 `;
